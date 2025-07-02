@@ -1,0 +1,513 @@
+[
+  {
+    "internal_id": "2003_spring_waza_1",
+    "card_no": "001",
+    "name": "ガンガンスマッシュ",
+    "version": "2003_spring",
+    "barcode_data": "G0L01W001M000",
+    "technique": 20,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_2",
+    "card_no": "002",
+    "name": "ドラゴンアタック",
+    "version": "2003_spring",
+    "barcode_data": "G0L02W004M000",
+    "technique": 50,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_3",
+    "card_no": "003",
+    "name": "ダンガン",
+    "version": "2003_spring",
+    "barcode_data": "G0L03W007M000",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_4",
+    "card_no": "004",
+    "name": "ローリングスマッシュ",
+    "version": "2003_spring",
+    "barcode_data": "G0L03W010M000",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_5",
+    "card_no": "005",
+    "name": "必殺ふうじ",
+    "version": "2003_spring",
+    "barcode_data": "G0L01W000M001",
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_6",
+    "card_no": "006",
+    "name": "最後の力",
+    "version": "2003_spring",
+    "barcode_data": "G0L02W000M004",
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_spring_waza_7",
+    "card_no": "007",
+    "name": "ブルロック",
+    "version": "2003_spring",
+    "barcode_data": "C0L01W002M000",
+    "technique": 20,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_8",
+    "card_no": "008",
+    "name": "ローリングクラッチホールド",
+    "version": "2003_spring",
+    "barcode_data": "C0L02W005M000",
+    "technique": 50,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_9",
+    "card_no": "009",
+    "name": "カワセミハッグ",
+    "version": "2003_spring",
+    "barcode_data": "C0L03W008M000",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_10",
+    "card_no": "010",
+    "name": "ランニングカッター",
+    "version": "2003_spring",
+    "barcode_data": "C0L03W011M000",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_11",
+    "card_no": "011",
+    "name": "あいこやぶり",
+    "version": "2003_spring",
+    "barcode_data": "C0L03W000M002",
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_12",
+    "card_no": "012",
+    "name": "必殺よこく",
+    "version": "2003_spring",
+    "barcode_data": "C0L01W000M005",
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_spring_waza_13",
+    "card_no": "013",
+    "name": "ローリングドライバー",
+    "version": "2003_spring",
+    "barcode_data": "P0L01W003M000",
+    "technique": 20,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_spring_waza_14",
+    "card_no": "014",
+    "name": "サイドスクリュースロー",
+    "version": "2003_spring",
+    "barcode_data": "P0L02W006M000",
+    "technique": 50,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_spring_waza_15",
+    "card_no": "015",
+    "name": "トルネードスロー",
+    "version": "2003_spring",
+    "barcode_data": "P0L03W009M000",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_spring_waza_16",
+    "card_no": "016",
+    "name": "サイドロックボム",
+    "version": "2003_spring",
+    "barcode_data": "P0L03W012M000",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_spring_waza_17",
+    "card_no": "017",
+    "name": "あせらせ",
+    "version": "2003_spring",
+    "barcode_data": "P0L01W000M003",
+    "skill_type": "paper",
+    "remarks": "アゲハチョウ"
+  },
+  {
+    "internal_id": "2003_spring_waza_18",
+    "card_no": "018",
+    "name": "はんげきかいふく",
+    "version": "2003_spring",
+    "barcode_data": "P0L02W000M006",
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_3_s",
+    "card_no": "SP003",
+    "name": "スーパーダンガン",
+    "version": "2003_autumn",
+    "barcode_data": "UXKVE31LFSTIV",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_autumn_waza_4_s",
+    "card_no": "SP004",
+    "name": "スーパーローリングスマッシュ",
+    "version": "2003_autumn",
+    "barcode_data": "U0KVES1LFSTIV",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2003_autumn_waza_9_s",
+    "card_no": "SP009",
+    "name": "スーパーカワセミハッグ",
+    "version": "2003_autumn",
+    "barcode_data": "U9KVEHDLFSTIV",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_autumn_waza_10_s",
+    "card_no": "SP010",
+    "name": "スーパーランニングカッター",
+    "version": "2003_autumn",
+    "barcode_data": "UPKVEQDLFSTIV",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_autumn_waza_15_s",
+    "card_no": "SP015",
+    "name": "スーパートルネードスロー",
+    "version": "2003_autumn",
+    "barcode_data": "UIKVVABLFSTIV",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_16_s",
+    "card_no": "SP016",
+    "name": "スーパーサイドロックボム",
+    "version": "2003_autumn",
+    "barcode_data": "UHKVVTBLFSTIV",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_19",
+    "card_no": "019",
+    "name": "ダイシャリン",
+    "version": "2003_autumn",
+    "barcode_data": "VAUVE1BLFSTIV",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_19_s",
+    "card_no": "SP019",
+    "name": "スーパーダイシャリン",
+    "version": "2003_autumn",
+    "barcode_data": "UCKVVEBLFSTIV",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_20",
+    "card_no": "020",
+    "name": "デビルスリーパー",
+    "version": "2003_autumn",
+    "barcode_data": "U6UVEKDLFSTDV",
+    "technique": 50,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2003_autumn_waza_21",
+    "card_no": "021",
+    "name": "かいふく",
+    "version": "2003_autumn",
+    "barcode_data": "V7UVOTBLFSS3V",
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2003_autumn_waza_22",
+    "card_no": "022",
+    "name": "ヒャクレツケン",
+    "version": "2003_autumn",
+    "barcode_data": "U6UVEW1LFST3V",
+    "technique": 20,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_17",
+    "card_no": "017",
+    "name": "あせらせ",
+    "version": "2004_2nd",
+    "barcode_data": "RQ6472BDZL39S",
+    "skill_type": "paper",
+    "remarks": "アオスジアゲハ"
+  },
+  {
+    "internal_id": "2004_2nd_waza_23",
+    "card_no": "023",
+    "name": "クロスダイブ",
+    "version": "2004_2nd",
+    "barcode_data": "GQ3JI7PNYPVTU",
+    "technique": 20,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_24",
+    "card_no": "024",
+    "name": "サイクロンホイップ",
+    "version": "2004_2nd",
+    "barcode_data": "Q4N6NFO9GB5EI",
+    "technique": 50,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2004_2nd_waza_25",
+    "card_no": "025",
+    "name": "ハヤテ",
+    "version": "2004_2nd",
+    "barcode_data": "3BGLOIAWWQHGR",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_25_s",
+    "card_no": "SP025",
+    "name": "スーパーハヤテ",
+    "version": "2004_2nd",
+    "barcode_data": "TD76QIRH2ANJ8",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_26",
+    "card_no": "026",
+    "name": "とくしゅふうじ",
+    "version": "2004_2nd",
+    "barcode_data": "9UTQHIGDPWZVG",
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_27",
+    "card_no": "027",
+    "name": "あいこボーナス",
+    "version": "2004_2nd",
+    "barcode_data": "I9E5LQFZ6A9GW",
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_28",
+    "card_no": "028",
+    "name": "こうげきダウン",
+    "version": "2004_2nd",
+    "barcode_data": "51SPCNTCYWXEN",
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2004_2nd_waza_29",
+    "card_no": "029",
+    "name": "まもりアップ",
+    "version": "2004_2nd",
+    "barcode_data": "G82YWFJAV4PK0",
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_30",
+    "card_no": "030",
+    "name": "あいの力",
+    "version": "2004_2nd",
+    "barcode_data": "MQY5XT9GLHRLM",
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_31",
+    "card_no": "031",
+    "name": "Ｓ･Ａ･Ｓ",
+    "version": "2004_2nd",
+    "barcode_data": "EUGE30X2MIHTR",
+    "technique": 20,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2004_2nd_waza_32",
+    "card_no": "032",
+    "name": "コンプリートスマッシュ",
+    "version": "2004_2nd",
+    "barcode_data": "PGAOBTLIIVLO2",
+    "technique": 50,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_33",
+    "card_no": "033",
+    "name": "フォレストブリッジ",
+    "version": "2004_2nd",
+    "barcode_data": "U162DBKOPE6Z4",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_33_s",
+    "card_no": "SP033",
+    "name": "スーパーフォレストブリッジ",
+    "version": "2004_2nd",
+    "barcode_data": "K8DYWSHRMHCYK",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_34",
+    "card_no": "034",
+    "name": "アースクエイクスロー",
+    "version": "2004_2nd",
+    "barcode_data": "A6XDBT2DL67U7",
+    "technique": 20,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2004_2nd_waza_35",
+    "card_no": "035",
+    "name": "サブマリンアタック",
+    "version": "2004_2nd",
+    "barcode_data": "5VTXWA2Y587E2",
+    "technique": 50,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2004_2nd_waza_36",
+    "card_no": "036",
+    "name": "ハヤブサ",
+    "version": "2004_2nd",
+    "barcode_data": "AVAXXQDK1LBQP",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2004_2nd_waza_36_s",
+    "card_no": "SP036",
+    "name": "スーパーハヤブサ",
+    "version": "2004_2nd",
+    "barcode_data": "2GS5TPIHTIVBU",
+    "technique": 80,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2005_1st_waza_37",
+    "card_no": "037",
+    "name": "ローリングクレイドル",
+    "version": "2005_1st",
+    "barcode_data": "6PP3PSI57PWO5",
+    "technique": 50,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2005_1st_waza_38",
+    "card_no": "038",
+    "name": "モールアタック",
+    "version": "2005_1st",
+    "barcode_data": "NHW25DYQFUO7S",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2005_1st_waza_38_s",
+    "card_no": "SP038",
+    "name": "スーパーモールアタック",
+    "version": "2005_1st",
+    "barcode_data": "K1AJQTRISGGQH",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2005_1st_waza_39",
+    "card_no": "039",
+    "name": "リバーススラム",
+    "version": "2005_1st",
+    "barcode_data": "3MYA1Z3J06819",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2005_1st_waza_39_s",
+    "card_no": "SP039",
+    "name": "スーパーリバーススラム",
+    "version": "2005_1st",
+    "barcode_data": "YJU0YO4XTNE7Q",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2005_1st_waza_40",
+    "card_no": "040",
+    "name": "サマーソルトプレス",
+    "version": "2005_1st",
+    "barcode_data": "UWTKXIMI1NV91",
+    "technique": 20,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2005_1st_waza_41",
+    "card_no": "041",
+    "name": "アンデストラップ",
+    "version": "2005_1st",
+    "barcode_data": "RW6YCQRHH921G",
+    "technique": 50,
+    "skill_type": "scissors"
+  },
+  {
+    "internal_id": "2005_1st_waza_42",
+    "card_no": "042",
+    "name": "トリプルスープレックス",
+    "version": "2005_1st",
+    "barcode_data": "A8GU8YOK0TCBD",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2005_1st_waza_42_s",
+    "card_no": "SP042",
+    "name": "スーパートリプルスープレックス",
+    "version": "2005_1st",
+    "barcode_data": "I7EB9TFI5CH96",
+    "technique": 80,
+    "skill_type": "paper"
+  },
+  {
+    "internal_id": "2005_1st_waza_43",
+    "card_no": "043",
+    "name": "カゲロウ",
+    "version": "2005_1st",
+    "barcode_data": "HTISVGH1Q545Q",
+    "technique": 80,
+    "skill_type": "rock"
+  },
+  {
+    "internal_id": "2005_1st_waza_43_s",
+    "card_no": "SP043",
+    "name": "スーパーカゲロウ",
+    "version": "2005_1st",
+    "barcode_data": "AL33DF5EN7W6S",
+    "technique": 80,
+    "skill_type": "rock"
+  }
+]

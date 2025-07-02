@@ -1,0 +1,205 @@
+/* 全体のスタイル */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 画面全体の高さを100%に */
+}
+
+/* 上段パネル */
+#selection-panel {
+    flex-shrink: 0;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#slots-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+#slots-row1, #slots-row2 {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.slot {
+    border: 2px dashed #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 120px; /* 幅を少し広げる */
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.slot.active {
+    border-color: #007bff;
+    background-color: #e9f5ff;
+}
+
+.slot.filled {
+    border-style: solid;
+    border-color: #28a745;
+    background-color: #e9f5ff;
+}
+
+.slot .remove-btn {
+    font-size: 0.8em;
+    color: #dc3545;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+#generate-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#generate-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* 下段パネル */
+#filter-panel {
+    flex-grow: 1; /* 残りの高さをすべて使う */
+    padding: 1rem;
+    overflow-y: hidden; /* パネル自体はスクロールさせない */
+    display: flex;
+    flex-direction: column;
+}
+
+#filter-controls {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#filters {
+    flex-grow: 1;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#filters fieldset {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+}
+
+#filters fieldset, #customize-assist {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+}
+
+#customize-assist {
+    width: 300px; /* 固定幅 */
+    flex-shrink: 0; /* 縮まないようにする */
+    overflow-y: auto; /* スクロール可能にする */
+    min-width: 250px; /* 最小幅を設定 */
+    max-height: 200px; /* 最大高さを設定し、スクロールを有効にする */
+}
+
+.alert-message {
+    background-color: #fffacd; /* Lemon Chiffon - 黄色系の背景 */
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem; /* 各アラート間のスペース */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.alert-message:hover {
+    background-color: #ffe4b5; /* Moccasin - ホバーで少し濃い色 */
+}
+
+#card-list-container {
+    flex-grow: 1; /* 残りの高さをすべて使う */
+    overflow-y: auto; /* カード一覧が長くなった場合にスクロール */
+    background-color: #fff;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* カード一覧のヘッダ */
+#card-list-header {
+    display: flex;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-item {
+    flex: 1;
+    padding: 0 0.5rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.header-item.sort-active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* カードアイテム */
+.card-item {
+    display: flex;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.card-item:nth-child(odd) {
+    background-color: #f9f9f9; /* 薄灰 */
+}
+
+.card-item:nth-child(even) {
+    background-color: #ffffff; /* 白 */
+}
+
+.card-item:hover {
+    background-color: #e6f7ff; /* ホバー時の色 */
+}
+
+.card-field {
+    flex: 1;
+    padding: 0 0.5rem;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* カラム幅の調整 (例) */
+.card-field.card-no, .header-item.card-no {
+    flex: 0 0 80px; /* 固定幅 */
+}
+
+.card-field.name, .header-item.name {
+    flex: 2; /* 2倍の幅 */
+}
+
+.card-field.strength, .header-item.strength,
+.card-field.personality, .header-item.personality,
+.card-field.family, .header-item.family,
+.card-field.remarks, .header-item.remarks {
+    flex: 1;
+}

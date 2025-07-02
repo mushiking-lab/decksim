@@ -1,0 +1,50 @@
+[
+  {
+    "internal_id": "license_1",
+    "name": "グレイテストプレイヤー",
+    "version": "2003_autumn",
+    "barcode_data": "LICENSEGRTEST"
+  },
+  {
+    "internal_id": "license_2",
+    "name": "グレイテストチャンピオン",
+    "version": "2003_autumn",
+    "barcode_data": "LICENSEPMAHCG"
+  },
+  {
+    "internal_id": "license_3",
+    "name": "エディプレイヤー",
+    "version": "2003_autumn",
+    "barcode_data": "EDYVEGJTVUJHR"
+  },
+  {
+    "internal_id": "license_4",
+    "name": "Ｄｒ．ＮＥＢＵマスターズ",
+    "version": "2003_autumn",
+    "barcode_data": "GBA6T2SOC5Z1J"
+  },
+  {
+    "internal_id": "license_5",
+    "name": "赤色の光(没データ)",
+    "version": "2003_autumn",
+    "barcode_data": "3I8F86I7GTVCS"
+  },
+  {
+    "internal_id": "license_6",
+    "name": "青色の光(没データ)",
+    "version": "2003_autumn",
+    "barcode_data": "HMIDGUZJ8SDGX"
+  },
+  {
+    "internal_id": "license_7",
+    "name": "青色の光(没データ)",
+    "version": "2003_autumn",
+    "barcode_data": "JHXB2MFP148WL"
+  },
+  {
+    "internal_id": "license_8",
+    "name": "三色の光(没データ)",
+    "version": "2003_autumn",
+    "barcode_data": "AYNXIDT72HHGQ"
+  }
+]
