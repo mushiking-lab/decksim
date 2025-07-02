@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デッキシミュレータ｜ムシキング研究所(非公式)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="selection-panel">
+        <div id="slots-container">
+            <div id="slots-row1"></div>
+            <div id="slots-row2"></div>
+        </div>
+        <button id="generate-btn" disabled>デッキ作成</button>
+    </div>
+
+    <div id="filter-panel">
+        <div id="filter-controls">
+            <div id="filters">
+                <fieldset>
+                    <legend>バージョン</legend>
+                    <div id="version-filters"></div>
+                </fieldset>
+                <fieldset id="mushi-filters" class="hidden">
+                    <legend>強さ</legend>
+                    <div id="mushi-size-filters"></div>
+                </fieldset>
+                <fieldset id="mushi-sukumi-filters" class="hidden">
+                    <legend>すくみ</legend>
+                    <div id="mushi-sukumi-checkboxes"></div>
+                </fieldset>
+                <fieldset id="mushi-personality-filters" class="hidden">
+                    <legend>性格</legend>
+                    <div id="mushi-personality-checkboxes"></div>
+                </fieldset>
+                <fieldset id="waza-filters" class="hidden">
+                    <legend>種類</legend>
+                    <div id="waza-compatibility-filters"></div>
+                </fieldset>
+            </div>
+            <fieldset id="customize-assist">
+                <legend>カスタマイズアシスト</legend>
+                <div id="alert-container"></div>
+            </fieldset>
+        </div>
+
+        <div id="card-list-container">
+            <div id="card-list-header" class="hidden"></div>
+            <div id="card-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

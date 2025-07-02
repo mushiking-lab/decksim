@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デッキ作成結果</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        #barcode-container {
+            display: inline-flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .barcode-item {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .card-name {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .barcode-data {
+            font-family: monospace;
+            margin-top: 0.5rem;
+        }
+
+        #back-link {
+            display: block;
+            margin-top: 2rem;
+        }
+
+        /* Mobile-friendly barcode */
+        .barcode-item svg {
+            max-width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="barcode-container">
+        <!-- バーコードはここにJavaScriptで生成されます -->
+    </div>
+
+    <a href="index.html" id="back-link">戻る</a>
+
+    <!-- バーコード生成ライブラリ -->
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <!-- このページ専用のスクリプト -->
+    <script src="barcode.js"></script>
+</body>
+
+</html>
