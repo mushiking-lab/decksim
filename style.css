@@ -189,6 +189,15 @@ body {
     text-overflow: ellipsis;
 }
 
+/* カード一覧の各項目の幅調整 */
+.card-no { flex-basis: 80px; flex-grow: 0; flex-shrink: 0; }
+.name { flex-basis: 80px; flex-grow: 1; }
+.strength { flex-basis: 80px; flex-grow: 0; flex-shrink: 0; }
+.personality { flex-basis: 80px; flex-grow: 0; flex-shrink: 0; }
+.family { flex-basis: 80px; flex-grow: 1; }
+.remarks { flex-basis: 80px; flex-grow: 1; }
+
+
 
 
 
