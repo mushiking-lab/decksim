@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const wazaFiltersContainer = document.getElementById('waza-filters');
     const wazaCompatibilityFiltersContainer = document.getElementById('waza-compatibility-filters');
     const alertContainer = document.getElementById('customize-assist').querySelector('#alert-container');
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const selectionPanel = document.getElementById('selection-panel');
 
     let allData = {};
     let wazaDataMap = new Map();
@@ -120,6 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById(`slot-${slotId}`).classList.add('active');
         updateFilterVisibility();
         updateCardList();
+
+        // Close menu on slot selection in mobile view
+        if (window.innerWidth <= 768) {
+            selectionPanel.classList.remove('open');
+        }
     }
 
     function updateFilterVisibility() {
@@ -282,6 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const fieldElement = document.createElement('div');
                 fieldElement.className = `card-field ${header.className}`;
                 fieldElement.textContent = card[header.key] || '-';
+                fieldElement.dataset.label = header.label; // Add data-label for mobile view
                 cardElement.appendChild(fieldElement);
             });
             cardList.appendChild(cardElement);
@@ -423,5 +431,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function setupMenu() {
+        hamburgerBtn.addEventListener('click', () => {
+            selectionPanel.classList.toggle('open');
+        });
+    }
+
     initializeApp();
+    setupMenu();
 });
